@@ -10,3 +10,10 @@ Nowadays it’s important to keep on checking the stock prices. Some people make
 - We are asking “requests” to retrieve all data from our URL
 - Then we parse that data with BeautifulSoup
 ### Notice: In the variable price your ‘class’ might be different. Use your inspect element function to figure out your ‘class’.
+
+## **Calling our function**
+- We are using "while True", so that we get updated stock prices!
+
+# **End**
+
+- Thanks for checking out my story on how to check stock prices using Python. Hopefully, you gained some knowledge and good luck with your stocks ;)
