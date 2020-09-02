@@ -17,3 +17,4 @@ Nowadays it’s important to keep on checking the stock prices. Some people make
 # **End**
 
 - Thanks for checking out my story on how to check stock prices using Python. Hopefully, you gained some knowledge and good luck with your stocks ;)
+Also check out my medium: https://medium.com/@michelangelo.foschi.10
