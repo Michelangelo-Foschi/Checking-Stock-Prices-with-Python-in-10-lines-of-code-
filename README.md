@@ -32,7 +32,7 @@ def check_price():
 while True:
     check_price()
     
-    ```
+ ```
 - We are using "while True", so that we get updated stock prices!
 
 # **End**
