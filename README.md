@@ -27,6 +27,12 @@ def check_price():
 ### Notice: In the variable price your ‘class’ might be different. Use your inspect element function to figure out your ‘class’.
 
 ## **Calling our function**
+
+```python
+while True:
+    check_price()
+    
+    ```
 - We are using "while True", so that we get updated stock prices!
 
 # **End**
