@@ -14,6 +14,16 @@ from bs4 import BeautifulSoup
 - Let’s find a URL for any companies stock price. I prefer to use yahoo finance while working on these projects.
 - We are asking “requests” to retrieve all data from our URL
 - Then we parse that data with BeautifulSoup
+
+``` python
+def check_price():
+    url = 'https://finance.yahoo.com/quote/AAPL?p=AAPL&.tsrc=fin-srch'
+    get_url_response = requests.get(url)
+    parse_response = BeautifulSoup(get_url_response.text, 'lxml')
+    price = parse_response.find_all('div', {'class':'My(6px) Pos(r) smartphone_Mt(6px)'})[0].find('span').text
+    print(price)
+```
+
 ### Notice: In the variable price your ‘class’ might be different. Use your inspect element function to figure out your ‘class’.
 
 ## **Calling our function**
